@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Date;
 
-public class CrudTickTickLists extends TestBase{
+public class CrudTickTick extends TestBase{
     @Test
-    public void CrudTickTickApp() throws InterruptedException {
+    public void CrudTickTickApp() {
         String taskListName = "TestList"+new Date().getTime();
         String taskListNameUp = "TestListUpdated"+new Date().getTime();
         //navegar a tick tick

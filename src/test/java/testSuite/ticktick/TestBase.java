@@ -10,7 +10,6 @@ public class TestBase {
     MainPage mainPage = new MainPage();
     LoginSection loginSection = new LoginSection();
     TaskSection taskSection = new TaskSection();
-
     String user= GetProperties.getInstance().getUser();
     String password =GetProperties.getInstance().getPwd();
 
