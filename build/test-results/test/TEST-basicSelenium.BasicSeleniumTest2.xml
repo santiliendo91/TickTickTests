@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicSelenium.BasicSeleniumTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-19T15:38:26" hostname="netdata-VirtualBox" time="24.141">
+  <properties/>
+  <testcase name="verifyCRUDProject()" classname="basicSelenium.BasicSeleniumTest2" time="24.141"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 18834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1671464309,554][WARNING]: This version of ChromeDriver has not been tested with Chrome version 108.
+Dec 19, 2022 11:38:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+</testsuite>
