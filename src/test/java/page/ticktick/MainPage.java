@@ -5,6 +5,6 @@ import org.openqa.selenium.By;
 
 public class MainPage {
     public MainPage(){}
-    public Label loginLabel = new Label(By.xpath("//ul/li[5]/a[@href='/signin']"));
+    public Label loginLabel = new Label(By.xpath("//ul/li[5]/a[contains(text(),'Sign In')]"));
 
 }

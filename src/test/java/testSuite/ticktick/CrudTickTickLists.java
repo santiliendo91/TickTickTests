@@ -7,9 +7,9 @@ import java.util.Date;
 
 public class CrudTickTickLists extends TestBase{
     @Test
-    public void VerifyCrudLists() throws InterruptedException {
+    public void CrudTickTickApp() throws InterruptedException {
         String taskListName = "TestList"+new Date().getTime();
-        String taskListNameUp = "TestListUpdated+new Date().getTime()";
+        String taskListNameUp = "TestListUpdated"+new Date().getTime();
         //navegar a tick tick
         mainPage.loginLabel.click();
         // login
