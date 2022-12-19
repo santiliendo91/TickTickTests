@@ -3,11 +3,13 @@ package testSuite.ticktick;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Date;
+
 public class CrudTickTickLists extends TestBase{
     @Test
     public void VerifyCrudLists() throws InterruptedException {
-        String taskListName = "TestList";
-        String taskListNameUp = "TestListUpdated";
+        String taskListName = "TestList"+new Date().getTime();
+        String taskListNameUp = "TestListUpdated+new Date().getTime()";
         //navegar a tick tick
         mainPage.loginLabel.click();
         // login
