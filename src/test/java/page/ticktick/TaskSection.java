@@ -22,7 +22,7 @@ public class TaskSection {
 
     public Label outBound = new Label(By.xpath("//body/div[14]/div/div/div[1]/h1"));
 
-    public Button saveBtn = new Button(By.xpath("//button[@class='ap-button ap-button-middle ap-button-primary']"));
+    public Button saveBtn = new Button(By.xpath("//button[contains(text(),'Save')]"));
 
     public Button moreBtn = new Button(By.cssSelector("#project-ul > div > li > div > button > div.flex-none.flex.items-center.min-w-\\[24px\\].justify-end.relative.z-0 > div > svg > use"));
 
