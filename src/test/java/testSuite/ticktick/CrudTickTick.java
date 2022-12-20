@@ -29,7 +29,6 @@ public class CrudTickTick extends TestBase{
     }
     String taskListName = "TestList"+new Date().getTime();
     String taskListNameUp = "TestListUpdated"+new Date().getTime();
-    //navegar a tick tick
 
     @Given("Accedo al home page de  TickTick y me logueo al mismo")
     public void loginTicktick(){
@@ -77,10 +76,16 @@ public class CrudTickTick extends TestBase{
         Assertions.assertFalse(taskSection.TaskListDisplayedonList(taskListNameUp), "Error");
     }
 
-    @Test
+   @Test
     public void CrudTickTickApp() {
-
-
+       String taskListName = "TestList"+new Date().getTime();
+       String taskListNameUp = "TestListUpdated"+new Date().getTime();
+       //navegar a tick tick
+       mainPage.loginLabel.click();
+       // login
+       loginSection.emailTxtBox.setText(user);
+       loginSection.passwordTxtBox.setText(password);
+       loginSection.loginButton.click();
         //task page
         //addlist
         taskSection.addListButton.click();
